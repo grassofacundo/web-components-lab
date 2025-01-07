@@ -1,0 +1,17 @@
+div {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: var(--color, transparent);
+
+    &.square {
+    }
+
+    &.circle {
+        border-radius: 40px;
+    }
+
+    &.diamond {
+        transform: rotate(45deg) scale(0.7);
+    }
+}

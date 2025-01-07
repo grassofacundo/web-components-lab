@@ -1,0 +1,20 @@
+body {
+    --background-color: #00ced1;
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+
+    main {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+#buttonPanel {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
